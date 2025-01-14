@@ -1,0 +1,14 @@
+git config --global user.name " "
+git config --global user.email " "
+git config --global user.password " "
+
+
+
+sudo apt install python3-pip
+sudo apt install python3.12-venv
+python3 -m venv myenv
+source myenv/bin/activate
+pip install opencv-python
+
+
+use droidcam or ip cam
