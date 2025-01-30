@@ -1,5 +1,15 @@
 import cv2
+from flask import Flask
 
+app = Flask(__name__)
+
+@app.route("/")
+
+def home():
+    return ("Hello world, from Flask!")
+
+
+"""
 cap = cv2.VideoCapture(0)
 
 while True:
@@ -13,4 +23,5 @@ while True:
 
 cap.release() # release video capture object
 cv2.destroyAllWindows() # destroy all frame windows
+"""
 
