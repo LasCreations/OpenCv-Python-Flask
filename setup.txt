@@ -10,6 +10,7 @@ sudo apt install python3.12-venv
 python3 -m venv myenv
 source myenv/bin/activate
 pip install opencv-python
+pip install keras
 
 
 use droidcam or ip cam
